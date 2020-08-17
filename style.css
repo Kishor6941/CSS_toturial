@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f4f4f4;
+	color: #555555;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	/* same as above */
+
+	font: normal 16px Arial,Helvetica,sans-serif;
+	line-height: 1.6em;
+	margin: 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+a:visited{
+}
+
+
+.button{
+	background-color: blue;
+	color: #fff;
+	padding: 10px 15px;
+	border:none;
+}
+.button:hover{
+	background-color: red;
+	color: white;
+}
+.clr{
+	clear: both;
+}
+.box-1{
+	background-color: #333;
+color: #fff;
+border:5px red solid;
+border-width: 3px;
+border-bottom-width:  5px;
+border-left-style: dotted;
+
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+padding-left: 20px;
+/*same as above*/
+padding: 20px;
+
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+
+/*same as above*/
+
+margin: 20px;
+margin: 20px 0;
+}
+
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+.box-1 p{
+	padding-top: 10px;
+}
+.box-2{
+	border:3px red dotted;
+	padding: 20px;
+	margin: 30px 0;
+}
+.box-2 p{
+	padding: 10px;
+}
+.categories{
+	border: 1px #ccc solid;
+	border-radius: 15px;
+padding-left: 30px
+
+}
+.categories h2{
+	text-align: center;
+}
+.categories ul {
+list-style: none;
+}
+.categories ul li{
+	padding-bottom: 8px;
+	border-bottom: 1px #333 dashed;
+	list-style-image: url('/home/kishor/Documents/CSS/images/check.png');
+}
+
+
+.my-form{
+	padding: 20px
+}
+.my-form .form-group{
+	padding-bottom: 15px
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	border:1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#main-block{
+	padding :15px;
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+
+}
+#sidebar{
+	padding: 15px;
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	box-sizing: border-box;
+}
+.p-box{
+	width: 500px;
+	height: 300px;
+	border:1px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background-image: url('/home/kishor/Documents/CSS/images/back.png');
+	background-repeat: no-repeat;
+	background-position: 100px 200px;
+	background-position: center top;
+
+}
+.p-box h1{
+	position: absolute;
+	top: 100px;
+	left:300px;
+}
+.p-box h2{
+	position:absolute;
+	top:50px;
+	left: 200px;
+}
+.fix-me{
+	position: fixed;
+	top: 0px;
+}
+.my-list li:first-child{
+	background:red;
+}
+.my-list li:last-child{
+	background:blue;
+}
+.my-list li:nth-child(3){
+background:yellow;
+}
+.my-list li:nth-child(even){
+	background:grey;
+}
